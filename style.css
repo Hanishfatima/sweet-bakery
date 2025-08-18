@@ -8,3 +8,25 @@
     background: skyblue !important;
     border: 2px skyblue solid;
 }
+
+
+
+.hero-sec{
+    margin-top: -50px !important;
+}
+
+.hero-sec h1 {
+    font-size: 65px;
+}
+.hero-sec h3{
+    font-size: 35px !important;
+}
+
+.button{
+
+}
+
+.button:hover{
+    border: 2px rgb(45, 195, 255) solid !important;
+background-color:skyblue;
+}
