@@ -1,4 +1,140 @@
-.main{
+.logo-img{
+      width: 150px;
+      height: 150px;
+   
+      
+    }
+/* hero */
+
+
+   .carousel-caption {
+      text-align: left;
+      bottom: 32%;
+    }
+
+    .carousel-caption h1 {
+      font-weight: bold;
+      font-size: 5rem;
+    }
+
+
+
+    .carousel-caption p {
+      font-size: 3rem;
+    }
+
+
+
+    /* Center the arrows vertically */
+    /*.carousel-control-prev,
+    .carousel-control-next {
+      top: 50%;
+      transform: translateY(-50%);
+      width: 5%;
+    }*/
+
+    .cards{
+        margin-top: 100px;
+    }
+
+/*
+    .background{
+        background-image: url(./images/bg-imgg.avif);
+        background-size: cover;
+    
+        
+    }*/
+
+    .background{
+ opacity: 0.8;
+  background-color: rgb(95, 202, 199)
+    }
+    @media (max-width: 768px) {
+  .carousel-caption {
+    text-align: center;
+    bottom: 10%;
+  }
+
+  .carousel-caption h1 {
+    font-size: 2rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+
+  .btn-custom {
+    font-size: 0.9rem;
+    padding: 8px 20px;
+  }
+
+
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Optional dark overlay */
+  z-index: 1;
+}
+
+.carousel-caption {
+  position: absolute;
+  z-index: 2;
+  color: white;
+}
+/* cards section */
+     margin: 0;
+      padding: 0;
+    }
+
+    .specialties-section {
+      position: relative;
+      padding: 60px 15px;
+      z-index: 1;
+      overflow: hidden;
+    }
+
+    /* Background image + blur */
+    .specialties-section::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-image: url('https://images.unsplash.com/photo-1606788075761-4693e43f21f3?fit=crop&w=1600&q=80'); /* Replace this */
+      background-size: cover;
+      background-position: center;
+      filter: blur(8px);
+      opacity: 0.2;
+      z-index: -1;
+    }
+
+    .specialty-box {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .specialty-box img {
+      width: 100%;
+      max-width: 180px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .specialty-box img:hover {
+      transform: scale(1.05);
+    }
+
+    .specialty-box h5 {
+      margin-top: 10px;
+      font-size: 1.1rem;
+    }
+
+
+
+/*.main{
+
     margin-left: 180px;
     background:  rgb(71, 218, 218);
 
@@ -29,4 +165,4 @@
 .button:hover{
     border: 2px rgb(45, 195, 255) solid !important;
 background-color:skyblue;
-}
+}*/
