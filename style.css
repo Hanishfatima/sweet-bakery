@@ -55,6 +55,14 @@
       background-color: white;
     color: black !important;
     }
+
+    .bg-back{
+      background-image: url(./images/bg-imgg.avif) !important;
+      background-size: cover;
+      height: 900px;
+    }
+
+   
     @media (max-width: 768px) {
   .carousel-caption {
     text-align: center;
