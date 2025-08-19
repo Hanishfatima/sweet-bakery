@@ -49,6 +49,13 @@
  opacity: 0.8;
   background-color: rgb(95, 202, 199)
     }
+
+    .butn:hover{
+      background-color: white;
+      color: rgb(59, 58, 58) !important;
+     
+
+    }
     @media (max-width: 768px) {
   .carousel-caption {
     text-align: center;
@@ -83,6 +90,8 @@
   z-index: 2;
   color: white;
 }
+
+
 /* cards section */
      margin: 0;
       padding: 0;
